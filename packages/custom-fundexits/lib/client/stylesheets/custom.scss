@@ -1,0 +1,62 @@
+@media screen and (max-width: 600px){}
+.content-wrapper {
+	overflow-x:inherit;
+	overflow-y:inherit;
+}
+
+.post-heading .post-title {
+	font-size:28px;
+	text-transform:none;
+	color:white;
+}
+.fa-frontpage{font-size:14px;}
+
+.post-heading .post-title:visited{
+	color:#d3d3d3;
+}
+h2{margin-bottom:0px;}
+
+.posts-day-heading {
+	text-align:center;
+	margin:0px;
+	padding:20px;
+	color:white;
+	background-color:#333;
+}
+.post{
+	background:none;
+	border-bottom: none;
+}
+.content-wrapper {
+  max-width: none;
+  padding: 0px;
+}
+.laval-post .post{
+	max-width:1000px;
+}
+.post-meta .discuss-link{display:none;}
+
+/* HEADER */
+.top-nav .header .secondary-nav{
+	text-transform:none;
+}
+.top-nav .header{
+	box-shadow:none;
+}
+.top-nav .header .logo {
+  padding: 12px 20px 3px 20px;
+}
+
+/* USER PROFILE */
+.user-profile{
+  padding: 60px !important;
+}
+.user-profile-posts{
+  padding: 60px !important;
+}
+.user-profile-votes{
+  padding: 60px !important;
+}
+.user-profile-comments{
+  padding: 60px !important;
+}
