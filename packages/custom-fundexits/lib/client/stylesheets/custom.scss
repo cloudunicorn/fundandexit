@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){}
+
 .content-wrapper {
 	overflow-x:inherit;
 	overflow-y:inherit;
@@ -59,4 +59,11 @@ h2{margin-bottom:0px;}
 }
 .user-profile-comments{
   padding: 60px !important;
+}
+
+@media screen and (max-width: 600px){
+	.top-nav .header .logo {
+	  font-size: 20px;
+		float:none;
+	}
 }

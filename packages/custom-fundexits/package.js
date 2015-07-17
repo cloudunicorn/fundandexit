@@ -35,6 +35,7 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_post_content_laval.html',
     'lib/client/templates/custom_post_title.js',
 		'lib/client/templates/custom_nav.html',
+		'lib/client/templates/custom_newsletter_banner.html',
     'lib/client/stylesheets/custom.scss',
 		'lib/client/custom_post_item_laval.js',
     'lib/client/custom_templates.js'
