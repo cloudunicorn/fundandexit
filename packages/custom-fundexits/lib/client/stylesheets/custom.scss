@@ -4,10 +4,16 @@
 	overflow-y:inherit;
 }
 .mobile-menu-button{display:none;}
+
+.header .logo a{color:black;}
+
 .top-nav .header .laval-tagline{
 	color:#d3d3d3;
 	letter-spacing: 1px;
 	margin-top:6px;
+}
+.top-nav .header .logo {
+	text-align:left;
 }
 .post-heading .post-title {
 	font-size:24px;
@@ -16,9 +22,12 @@
 }
 .fa-frontpage{font-size:14px;}
 
+.top{display:none;}
+
 .post-heading .post-title:visited{
 	color:#d3d3d3;
 }
+
 h2{margin-bottom:0px;}
 
 .posts-day-heading {
@@ -50,7 +59,10 @@ h2{margin-bottom:0px;}
 }
 .post-meta .discuss-link{display:none;}
 
+.post-meta{font-family:inherit;}
+
 .no-posts{text-align: center;}
+
 /* HEADER */
 .top-nav .header .secondary-nav{
 	text-transform:none;
