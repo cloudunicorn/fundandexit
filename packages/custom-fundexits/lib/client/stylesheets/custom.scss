@@ -4,8 +4,13 @@
 	overflow-y:inherit;
 }
 .mobile-menu-button{display:none;}
+.top-nav .header .laval-tagline{
+	color:#d3d3d3;
+	letter-spacing: 1px;
+	margin-top:6px;
+}
 .post-heading .post-title {
-	font-size:28px;
+	font-size:24px;
 	text-transform:none;
 	color:white;
 }
@@ -17,12 +22,18 @@
 h2{margin-bottom:0px;}
 
 .posts-day-heading {
-	text-align:center;
+	font-size:13px;
+	text-align:left;
 	margin:0px;
-	padding:20px;
-	color:white;
-	background-color:#333;
+	padding:10px;
+	color:#000000;
+	background-color:#F7F7F7;
+	border-top:1px solid #C1C1C1;
 }
+.day-date{
+	margin-left:35px;
+}
+
 .post{
 	background:none;
 	border-bottom: none;
@@ -33,6 +44,9 @@ h2{margin-bottom:0px;}
 }
 .laval-post .post{
 	max-width:1000px;
+	margin:16px 0px 0px 35px;
+	float:left;
+	text-align:left;
 }
 .post-meta .discuss-link{display:none;}
 
